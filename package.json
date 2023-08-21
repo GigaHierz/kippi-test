@@ -1,0 +1,38 @@
+{
+    "name": "kippi-test",
+    "version": "1.0.0",
+    "description": "Custom Celo Composer project.",
+    "private": true,
+    "author": "Celo",
+    "license": "MIT",
+    "scripts": {
+        "react-app:dev": "yarn workspace @kippi-test/react-app dev",
+        "react-app:build": "yarn workspace @kippi-test/react-app build",
+        "react-app:start": "yarn workspace @kippi-test/react-app start",
+        "react-app:lint": "yarn workspace @kippi-test/react-app lint",
+        "hardhat:test": "yarn workspace @kippi-test/hardhat test",
+        "hardhat:test-local": "yarn workspace @kippi-test/hardhat test-local",
+        "hardhat:create-account": "yarn workspace @kippi-test/hardhat create-account",
+        "hardhat:accounts": "yarn workspace @kippi-test/hardhat accounts",
+        "hardhat:devchain": "yarn workspace @kippi-test/hardhat devchain",
+        "hardhat:deploy": "yarn workspace @kippi-test/hardhat deploy",
+        "hardhat:deploy-reset-watch": "yarn workspace @kippi-test/hardhat deploy-reset-watch",
+        "hardhat:watch": "yarn workspace @kippi-test/hardhat watch",
+        "hardhat:fork-mainnet": "yarn workspace @kippi-test/hardhat fork-mainnet"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/celo-org/celo-composer.git"
+    },
+    "bugs": {
+        "url": "https://github.com/celo-org/celo-composer/issues"
+    },
+    "homepage": "https://github.com/celo-org/celo-composer/blob/main/README.md",
+    "workspaces": [
+        "packages/*"
+    ],
+    "keywords": [
+        "celo-composer",
+        "celo"
+    ]
+}
